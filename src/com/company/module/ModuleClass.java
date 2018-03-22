@@ -17,4 +17,9 @@ public class ModuleClass {
     public void setM(int m) {
         this.m = m;
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
