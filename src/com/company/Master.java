@@ -8,4 +8,12 @@ public class Master {
 
         System.out.println("master");
     }
+
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
 }
